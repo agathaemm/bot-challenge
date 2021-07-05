@@ -5,43 +5,47 @@
 Primeiro deve-se configurar o arquivo .env da aplicação
 Feito isso siga os passo a seguir:
 
-Esta aplicação utiliza o laravel com sail então primeiro deve-se rodar o comando
+```bash
+# Esta aplicação utiliza o laravel com sail então primeiro deve-se rodar o comando
 $ sail up -d
 
-Para finalizar o sail basta rodar
+# Para finalizar o sail basta rodar
 $ sail down
 
-Em seguida rode o comando para importar as dependencias
+# Em seguida rode o comando para importar as dependencias
 $ sail composer install
 
-Depois devemos gerar a chave da aplicação
+# Depois devemos gerar a chave da aplicação
 $ sail artisan key:generate
 
-Rode as migrations
+# Rode as migrations
 $ sail artisan migrate
+```
 
 ## Executando os comandos
 
-### Para rodar o primeiro item do desafio execute o comando:
+```bash
+# Para rodar o primeiro item do desafio execute o comando:
 
 $ sail artisan capture-table-information
 
-### Para rodar o segundo item do desafio execute o comando:
+# Para rodar o segundo item do desafio execute o comando:
 
 $ sail artisan fill-form
 
-### Para rodar o terceiro item do desafio execute o comando:
+# Para rodar o terceiro item do desafio execute o comando:
 
 $ sail artisan download-file
 
 (Você encontrará o arquivo baixado na pasta storage/files)
 
-### Para rodar o quarto item do desafio execute o comando:
+# Para rodar o quarto item do desafio execute o comando:
 
 $ sail artisan upload-file
 
-### Para rodar o quinto item do desafio execute o comando:
+# Para rodar o quinto item do desafio execute o comando:
 
 $ sail artisan extract-pdf-data
 
 (Você encontrará o arquivo excel na pasta storage/framework/laravel-excel)
+```
