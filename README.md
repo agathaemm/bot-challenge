@@ -34,18 +34,16 @@ $ sail artisan capture-table-information
 $ sail artisan fill-form
 
 # Para rodar o terceiro item do desafio execute o comando:
+# (Você encontrará o arquivo baixado na pasta storage/files)
 
 $ sail artisan download-file
-
-(Você encontrará o arquivo baixado na pasta storage/files)
 
 # Para rodar o quarto item do desafio execute o comando:
 
 $ sail artisan upload-file
 
 # Para rodar o quinto item do desafio execute o comando:
+# (Você encontrará o arquivo excel na pasta storage/framework/laravel-excel)
 
 $ sail artisan extract-pdf-data
-
-(Você encontrará o arquivo excel na pasta storage/framework/laravel-excel)
 ```
